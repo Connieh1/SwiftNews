@@ -13,6 +13,8 @@
 		04B21D8D29FF344300F67CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B21D8B29FF344300F67CAD /* Main.storyboard */; };
 		04B21D8F29FF344500F67CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B21D8E29FF344500F67CAD /* Assets.xcassets */; };
 		04B21D9229FF344500F67CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B21D9029FF344500F67CAD /* LaunchScreen.storyboard */; };
+		04C7DE7929FF37F300EDDD23 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7DE7829FF37F300EDDD23 /* APICaller.swift */; };
+		04C7DE7B29FF43D400EDDD23 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7DE7A29FF43D400EDDD23 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04B21D8E29FF344500F67CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B21D9129FF344500F67CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B21D9329FF344500F67CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C7DE7829FF37F300EDDD23 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		04C7DE7A29FF43D400EDDD23 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				04B21D8529FF344300F67CAD /* AppDelegate.swift */,
+				04C7DE7829FF37F300EDDD23 /* APICaller.swift */,
 				04B21D8729FF344300F67CAD /* SceneDelegate.swift */,
 				04B21D8929FF344300F67CAD /* ViewController.swift */,
 				04B21D8B29FF344300F67CAD /* Main.storyboard */,
 				04B21D8E29FF344500F67CAD /* Assets.xcassets */,
 				04B21D9029FF344500F67CAD /* LaunchScreen.storyboard */,
 				04B21D9329FF344500F67CAD /* Info.plist */,
+				04C7DE7A29FF43D400EDDD23 /* NewsTableViewCell.swift */,
 			);
 			path = "What'sGoingOn?";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				04B21D8A29FF344300F67CAD /* ViewController.swift in Sources */,
 				04B21D8629FF344300F67CAD /* AppDelegate.swift in Sources */,
+				04C7DE7B29FF43D400EDDD23 /* NewsTableViewCell.swift in Sources */,
 				04B21D8829FF344300F67CAD /* SceneDelegate.swift in Sources */,
+				04C7DE7929FF37F300EDDD23 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
